@@ -1,0 +1,52 @@
+body {
+    background-color: #e0e0e0;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+.navbar {
+    background-color: green; /* Background color for the navbar */
+    padding: 20px; /* Padding inside the navbar */
+    box-shadow: 0 2px 4px rgba(99, 12, 12, 0.2); /* Box shadow for a subtle elevation effect */
+    display: flex;
+    justify-self: unset;
+  }
+  
+  .navbar a {
+    color: goldenrod; /* Link text color */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 30px; /* Add spacing between links horizontally */
+  }
+  
+  .navbar a:hover {
+    color: blueviolet; /* Change link color on hover */
+  }
+  
+  /*  add a transition for a smooth color change on hover */
+  .navbar a {
+    transition: color 0.3S ease;
+  }
+  
+  
+  /* add a responsive design for smaller screens */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align items to the left */
+    }
+  
+    .navbar a {
+      margin: 10px 0; /* Add spacing between links vertically */
+    }
+  
+  }
+
+
+
+
+  
+  
